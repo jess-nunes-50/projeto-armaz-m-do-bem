@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armazém do Bem Website</title>
+    
+    <link rel="stylesheet" href="css/styles.css" />
+
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    
+    <header>
+      
+      <h1>Armazém do Bem</h1>
+        
+        <ul class="navbar">
+          <li><a href="#" class="active">Início</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contatos</a></li>
+        </ul>
+
+        <div class="icons">
+          <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+          <a href="login.html"><i class="ri-user-3-line"></i></a>
+          <div>|</div>
+          <div class="bx bx-menu-alt-right" id="menu-icon"></div>
+        </div>
+      </nav>
+    </header>
+
+    
+    <div class="banner">
+      
+      <div class="banner-content">
+        <h1>Compre seus temperos</h1>
+
+        <div class="banner-stats">
+          <div>
+            <h6>50+</h6>
+            <p>Tipos de temperos</p>
+          </div>
+          <div class="bar"></div>
+          <div>
+            <h6>10+</h6>
+            <p>Tipos de chás</p>
+          </div>
+        </div>
+
+        <div class="search-btn">
+          <form>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="O que deseja?"
+            />
+            <button type="submit" class="search-icon">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="banner-img">
+        <img src="img/newsstand-animate.svg" alt="" />
+      </div>
+    </div>
+
+    
+    <section class="best-selling">
+      <div class="best-selling-content">
+        <h2>Temperos mais vendidos</h2>
+        <p>Um jeito saudável de levar a vida</p>
+        <button class="btn">
+          Veja mais <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+
+      <div class="products">
+        <img src="img/temp.jpg" alt="" />
+        <div>
+          <h5>Temperos</h5>
+          <p>R$ 8,00 cada 100g</p>
+        </div>
+      </div>
+      <div class="products">
+        <img src="img/paprica-doce.jpg" alt="" />
+        <div>
+          <h5>Pápricas</h5>
+          <p>R$ 10,00 cada 100g</p>
+        </div>
+      </div>
+      <div class="products">
+        <img src="img/pimenta.jpg" alt="" />
+        <div>
+          <h5>Pimentas</h5>
+          <p>R$ 12,00 cada 100g</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="about">
+      <h2>Sobre nós</h2>
+      <p></p>
+
+      <div class="about-box">
+        <div class="box">
+          <div class="box-img"><img src="img/tree.svg" alt="" /></div>
+          <div>
+            <h3>Grande variedade</h3>
+            <p>
+              Temos uma gama muito vasta de produtos naturais, desde temperos até encapsulados.
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img"><img src="img/git-box.svg" alt="" /></div>
+          <div>
+            <h3>Nossa história</h3>
+            <p>
+              A loja foi fundada em 2015 pelo conhecido Domingos Paschoal e atualmente está na domíni de seu filho Peterson Alvarado. 
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img"><img src="img/Telephone.svg" alt="" /></div>
+          <div>
+            <h3>Contato</h3>
+            <p>
+              Respondemos o Whatsapp com frequência, entretanto não aceitamos ligações.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="categories">
+      <h2>Tabela de preços</h2>
+      <p>Nesta tabela temos os preços de alguns produtos mais vendidos</p>
+      
+      <div class="category-container">
+        <div class="row">
+          <img src="img/castanha.jpg" alt="" />
+          <h3>Castanhas</h3>
+        </div>
+        <div class="row">
+          <img src="img/temperos.jpg" alt="" />
+          <div>
+            <h3>Temperos</h3>
+            <p>Aperte o botão abaixo e acesse nosso estoque.</p>
+            <a href="#">Explore <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/capsula.jpg" alt="" />
+          <h3>Cápsulas</h3>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="review">
+      <h2>O que os clientes dizem sobre nós?</h2>
+      <div class="indicator">
+        <span class="arrow-icon icon1"></span>
+        <span class="arrow-icon"></span>
+        <span class="arrow-icon"></span>
+        <span class="arrow-icon"></span>
+      </div>
+
+      <div class="review-container">
+        <div class="slider-row" id="slide">
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Compro neles desde que abriram! Sempre tem os melhores preços!!
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>João Pedro</h3>
+                    <p>Youtuber</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user1.svg" alt="" />
+            </div>
+          </div>
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                O atendimento online deles é nota 10! Nunca demoram para retornar e tem os melhores produtos da cidade!
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>Zézinho</h3>
+                    <p>Pedreiro</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user2.svg" alt="" />
+            </div>
+          </div>
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Excelente trabalho e produtos, acabaram de ganhar mais um cliente fiel!
+                
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>Pedro Alves</h3>
+                    <p>estudante</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user1.svg" alt="" />
+            </div>
+          </div>
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Amo os produtos, sempre alta qualidade e preços imbatíveis.
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>Tonhão do gás</h3>
+                    <p>vendedor</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="">
+      <div class="footer-container">
+        <h1>Armazém do Bem</h1>
+        <div class="company-info">
+          
+          <p>Ajudamos você a encontrar o que procura</p>
+          <div class="socials">
+            <div><i class="ri-facebook-fill"></i></div>
+            <div><i class="ri-instagram-fill"></i></div>
+            <div><i class="ri-twitter-fill"></i></div>
+          </div>
+        </div>
+
+        
+        <div class="web-pages">
+          <div>
+            <h3>Informações</h3>
+            <a href="#"><p>Sobre</p></a>
+            <a href="#"><p>Produtos</p></a>
+            <a href="#"><p>Blog</p></a>
+          </div>
+          
+          <div>
+            <h3>Contato</h3>
+            <a href="#"><p>Whatsapp</p></a>
+            <a href="#"><p>Email</p></a>
+            
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">@ 2024 todos os direitos reservados Termo de uso ARMAZÉM</p>
+    </footer>
+
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
